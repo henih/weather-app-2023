@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Weather app</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="search-form">
+        <div class="row">
+          <div class="col-7">
+            <input
+              type="search"
+              placeholder="Type a city..."
+              class="form-control"
+              autofocus
+              id="city-input"
+            />
+          </div>
+          <div class="col-2">
+            <input type="submit" class="btn btn-info" value="Search" />
+          </div>
+
+          <div class="col-2">
+            <button type="button" class="btn btn-warning">Current</button>
+          </div>
+        </div>
+      </form>
+
+      <h1 id="city"></h1>
+      <h2 id="date-time">Last updated: <span id="current-time"></span></h2>
+      <h2 id="weather-description"></h2>
+      <div class="row">
+        <div class="col-6">
+          <img src="" id="icon" />
+          <span class="temperature" id="temperature"></span>
+          <span class="units"></span>
+        </div>
+        <div class="col-6">
+          <span class="humidity">Humidity: <span id="humidity"></span>%</span>
+          <br />
+          <span class="wind">Wind speed: <span id="wind"></span> km/h</span>
+        </div>
+      </div>
+      <div class="weather-forecast" id="forecast">
+        <div class="row"></div>
+        <div class="col-2"></div>
+      </div>
+    </div>
+
+    <footer>
+      Coded by <a href="mailto:horvath.henriett@gmail.com"> Henriett Horvath</a>
+    </footer>
+    <script src="javascript/app.js"></script>
+  </body>
+</html>

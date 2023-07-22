@@ -1,0 +1,62 @@
+h2 {
+  opacity: 60%;
+  font-size: 90%;
+  line-height: 18px;
+  margin: 0;
+}
+
+form {
+  margin: 10px auto;
+}
+
+footer {
+  text-align: center;
+  font-size: 60%;
+  opacity: 60%;
+}
+.container {
+  margin: 35px auto 15px;
+  padding: 15px;
+  border: solid lightgray;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  max-width: 550px;
+  background: snow;
+}
+
+.temperature {
+  font-size: 300%;
+  margin-left: -14px;
+}
+
+#weather-description {
+  margin-bottom: 10px;
+}
+#weather-description:first-letter {
+  text-transform: capitalize;
+}
+
+.humidity,
+.wind {
+  margin: 50px;
+  margin-bottom: -20px;
+
+  font-size: 80%;
+}
+#icon {
+  margin-top: -20px;
+}
+.units {
+  position: relative;
+  font-size: 16px;
+  top: -22px;
+}
+
+.weather-forecast {
+  text-align: center;
+  font-size: 80%;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 60%;
+}
