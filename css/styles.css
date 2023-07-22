@@ -29,22 +29,11 @@ footer {
   margin-left: -14px;
 }
 
-#weather-description {
-  margin-bottom: 10px;
-}
-#weather-description:first-letter {
-  text-transform: capitalize;
-}
-
 .humidity,
 .wind {
   margin: 50px;
   margin-bottom: -20px;
-
   font-size: 80%;
-}
-#icon {
-  margin-top: -20px;
 }
 .units {
   position: relative;
@@ -59,4 +48,15 @@ footer {
 
 .weather-forecast-temperature-min {
   opacity: 60%;
+}
+
+#weather-description {
+  margin-bottom: 10px;
+}
+#weather-description:first-letter {
+  text-transform: capitalize;
+}
+
+#icon {
+  margin-top: -20px;
 }
